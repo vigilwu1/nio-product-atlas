@@ -143,6 +143,7 @@ function VisualStage({ vehicle, tab, featureIndex, setFeatureIndex }: {
 function DetailDialog({ vehicle, onClose }: { vehicle: Vehicle; onClose: () => void }) {
   const [tab, setTab] = useState<Tab>('外观');
   const [featureIndex, setFeatureIndex] = useState(0);
+  const feature = vehicle.highlights[featureIndex % vehicle.highlights.length];
   const [layout, setLayout] = useState<number | undefined>(vehicle.id === 'es8' ? 5 : undefined);
   const [es9Layout, setEs9Layout] = useState<'通道' | '中岛'>('通道');
   const [activeVariant, setActiveVariant] = useState(0);
@@ -324,7 +325,7 @@ export default function App() {
         </div>
         <div className="hero-visual" aria-label="蔚来ES9外观展示">
           <div className="hero-glow" /><div className="hero-sun" />
-          <img src="/images/es9.jpg" alt="蔚来ES9官方外观图" fetchPriority="high" />
+          <img src="./images/es9.jpg" alt="蔚来ES9官方外观图" fetchPriority="high" />
           <div className="hero-visual-shadow" />
           <div className="hero-visual-title"><span>FEATURED / 旗舰SUV</span><strong>ES9</strong><small>天地纵览</small></div>
           <div className="hero-visual-side"><span>5,365 mm</span><small>车身长度</small></div>
