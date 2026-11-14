@@ -1,0 +1,26 @@
+{
+  "accessedOn": "2026-10-15",
+  "note": "The source images below are copies of public official NIO product-page images already present in the workspace. They are single exterior views, not 360-degree or 3D assets.",
+  "images": [
+    {
+      "file": "images/et5.jpg",
+      "model": "ET5",
+      "sourcePage": "https://www.nio.cn/et5",
+      "assetUrl": "https://cdn-udp-public.eu.nio.com/www-nio/admin-file-upload/prod/2026-04-02/c25292/ET5-Desktop.jpg"
+    },
+    {
+      "file": "images/es8.jpg",
+      "model": "ES8",
+      "sourcePage": "https://www.nio.cn/es8",
+      "assetUrl": "https://cdn-udp-public.eu.nio.com/www-nio/es8-2025/nd25/top-hero/top-hero-desktop.jpg"
+    },
+    {
+      "file": "images/es9.jpg",
+      "model": "ES9",
+      "sourcePage": "https://www.nio.cn/es9",
+      "assetUrl": "https://cdn-udp-public.eu.nio.com/www-nio/admin-file-upload/0/2026-05-28/7c5bb7/Flagship%20Executive%20SUV%20NIO%20ES9%20Launched.jpeg"
+    }
+  ],
+  "missingModelViews": ["ET5T", "ES6", "EC6", "ET9", "ET7", "EC7"],
+  "missingViews": ["all official multi-angle sequences", "all official interior image groups"]
+}
